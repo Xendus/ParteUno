@@ -1,0 +1,35 @@
+C:\Users\Ulises\AppData\Local\Temporary Projects\BaseDatos\bin\Debug\BaseDatos.exe.config
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\bin\Debug\BaseDatos.exe.config
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\obj\Debug\BaseDatos.csprojResolveAssemblyReference.cache
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\obj\Debug\MainWindow.baml
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\obj\Debug\MainWindow.g.cs
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\obj\Debug\App.g.cs
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\obj\Debug\BaseDatos_MarkupCompile.cache
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\obj\Debug\BaseDatos.g.resources
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\obj\Debug\BaseDatos.Properties.Resources.resources
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\obj\Debug\BaseDatos.csproj.GenerateResource.Cache
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\bin\Debug\BaseDatos.exe
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\bin\Debug\BaseDatos.pdb
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\bin\Debug\EntityFramework.dll
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\bin\Debug\EntityFramework.xml
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\obj\Debug\BaseDatos.exe
+C:\Users\Ulises\Documents\Visual Studio 2012\Projects\BaseDatos\BaseDatos\obj\Debug\BaseDatos.pdb
+I:\BaseDatos\BaseDatos\bin\Debug\BaseDatos.exe.config
+I:\BaseDatos\BaseDatos\obj\Debug\BaseDatos.exe
+I:\BaseDatos\BaseDatos\obj\Debug\BaseDatos.pdb
+I:\BaseDatos\BaseDatos\bin\Debug\BaseDatos.exe
+I:\BaseDatos\BaseDatos\bin\Debug\BaseDatos.pdb
+I:\BaseDatos\BaseDatos\bin\Debug\EntityFramework.dll
+I:\BaseDatos\BaseDatos\bin\Debug\EntityFramework.SqlServer.dll
+I:\BaseDatos\BaseDatos\bin\Debug\EntityFramework.xml
+I:\BaseDatos\BaseDatos\bin\Debug\EntityFramework.SqlServer.xml
+I:\BaseDatos\BaseDatos\obj\Debug\BaseDatos.csprojResolveAssemblyReference.cache
+I:\BaseDatos\BaseDatos\obj\Debug\MainWindow.baml
+I:\BaseDatos\BaseDatos\obj\Debug\MainWindow.g.cs
+I:\BaseDatos\BaseDatos\obj\Debug\App.g.cs
+I:\BaseDatos\BaseDatos\obj\Debug\BaseDatos_MarkupCompile.cache
+I:\BaseDatos\BaseDatos\obj\Debug\BaseDatos.g.resources
+I:\BaseDatos\BaseDatos\obj\Debug\BaseDatos.Properties.Resources.resources
+I:\BaseDatos\BaseDatos\obj\Debug\BaseDatos.csproj.GenerateResource.Cache
