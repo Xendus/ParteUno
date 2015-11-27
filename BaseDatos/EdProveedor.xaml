@@ -3,12 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="EdTiempo" Height="401.492" Width="546.268">
     <Grid>
-        <Label Content="Dia" HorizontalAlignment="Left" Margin="59,58,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txt1" HorizontalAlignment="Left" Height="23" Margin="111,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Mes" HorizontalAlignment="Left" Margin="59,107,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txt2" HorizontalAlignment="Left" Height="23" Margin="111,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Año" HorizontalAlignment="Left" Margin="59,157,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txt3" HorizontalAlignment="Left" Height="23" Margin="111,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Numero de Entrega" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Height="23" Margin="138,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Nombre Proveedor" HorizontalAlignment="Left" Margin="12,104,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt2" HorizontalAlignment="Left" Height="23" Margin="138,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <DataGrid x:Name="DeTiempo" HorizontalAlignment="Left" Margin="10,202,0,0" VerticalAlignment="Top" Height="140" Width="491" Loaded="DeTiempo_Loaded"/>
         <ComboBox x:Name="DTiempo" HorizontalAlignment="Left" Margin="179,21,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged"/>
         <Button Content="Editar" HorizontalAlignment="Left" Margin="387,142,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>

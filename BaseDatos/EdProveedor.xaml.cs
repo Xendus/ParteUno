@@ -60,9 +60,8 @@ namespace BaseDatos
 
             if (cons != null)
             {
-                cons.Dia = (String)txt1.Text;
-                cons.Mes = (String)txt2.Text;
-                cons.Año = (String)txt3.Text;
+                cons.NumeroDeEntrega = (String)txt1.Text;
+                cons.NombreProveedor = (String)txt2.Text;
                 db.SaveChanges();
 
                 MessageBox.Show("Datos Fueron Actualizado Correctamente");

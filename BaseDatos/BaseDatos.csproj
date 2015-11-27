@@ -60,6 +60,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="BD\Proveedor.cs" />
     <Compile Include="Cliente.xaml.cs">
       <DependentUpon>Cliente.xaml</DependentUpon>
     </Compile>
@@ -72,17 +73,29 @@
     <Compile Include="EdProducto.xaml.cs">
       <DependentUpon>EdProducto.xaml</DependentUpon>
     </Compile>
-    <Compile Include="EdTiempo.xaml.cs">
-      <DependentUpon>EdTiempo.xaml</DependentUpon>
+    <Compile Include="EdProveedor.xaml.cs">
+      <DependentUpon>EdProveedor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Empleado.xaml.cs">
       <DependentUpon>Empleado.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201511271644393_semonpartedos.cs" />
+    <Compile Include="Migrations\201511271644393_semonpartedos.Designer.cs">
+      <DependentUpon>201511271644393_semonpartedos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511271650325_semonpartetres.cs" />
+    <Compile Include="Migrations\201511271650325_semonpartetres.Designer.cs">
+      <DependentUpon>201511271650325_semonpartetres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511271655372_semonpartecuatro.cs" />
+    <Compile Include="Migrations\201511271655372_semonpartecuatro.Designer.cs">
+      <DependentUpon>201511271655372_semonpartecuatro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Producto.xaml.cs">
       <DependentUpon>Producto.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Tiempo.xaml.cs">
-      <DependentUpon>Tiempo.xaml</DependentUpon>
+    <Compile Include="Proveedor.xaml.cs">
+      <DependentUpon>Proveedor.xaml</DependentUpon>
     </Compile>
     <Page Include="CapturaVentas.xaml">
       <SubType>Designer</SubType>
@@ -104,7 +117,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="EdTiempo.xaml">
+    <Page Include="EdProveedor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -137,7 +150,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Tiempo.xaml">
+    <Page Include="Proveedor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -163,6 +176,15 @@
     </Compile>
     <EmbeddedResource Include="Migrations\201511262137255_semonsemon.resx">
       <DependentUpon>201511262137255_semonsemon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511271644393_semonpartedos.resx">
+      <DependentUpon>201511271644393_semonpartedos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511271650325_semonpartetres.resx">
+      <DependentUpon>201511271650325_semonpartetres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511271655372_semonpartecuatro.resx">
+      <DependentUpon>201511271655372_semonpartecuatro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

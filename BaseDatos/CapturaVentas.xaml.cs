@@ -23,5 +23,29 @@ namespace BaseDatos
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Cliente Ventana = new Cliente();
+            Ventana.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Producto Ventana = new Producto();
+            Ventana.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Tiempo Ventana = new Tiempo();
+            Ventana.Show();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Empleado Ventana = new Empleado();
+            Ventana.Show();
+        }
     }
 }

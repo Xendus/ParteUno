@@ -14,5 +14,6 @@ namespace BaseDatos.BD
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Empleado> Empleados { get; set; }
+        public DbSet<Proveedor> Proveedores { get; set; }
     }
 }

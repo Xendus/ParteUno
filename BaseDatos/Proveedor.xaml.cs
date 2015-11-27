@@ -29,9 +29,8 @@ namespace BaseDatos
             BaseDatos.BD.MiBD db = new BaseDatos.BD.MiBD();
             BaseDatos.BD.Tiempo ti = new BaseDatos.BD.Tiempo();
 
-            ti.Dia = txt1.Text;
-            ti.Mes = txt2.Text;
-            ti.Año = txt3.Text;
+            ti.NumeroDeEntrega = txt1.Text;
+            ti.NombreProveedor = txt2.Text;
             db.Tiempos.Add(ti);
             db.SaveChanges();
             MessageBox.Show("Datos Fueron Guardados Correctamente");
