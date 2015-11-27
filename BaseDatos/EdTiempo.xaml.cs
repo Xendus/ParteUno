@@ -27,13 +27,15 @@ namespace BaseDatos
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             BaseDatos.BD.MiBD db = new BaseDatos.BD.MiBD();
-            int id = (int)DTiempo.SelectedValue;
-            //algo
-            var cons = from s in db.Tiempos
-                       where s.IDTiempo == id
-                       select s;
-            DeTiempo.ItemsSource = cons.ToList();
-
+            if (DTiempo.SelectedValue != null)
+            {
+                int id = (int)DTiempo.SelectedValue;
+                //algo
+                var cons = from s in db.Tiempos
+                           where s.IDTiempo == id
+                           select s;
+                DeTiempo.ItemsSource = cons.ToList();
+            }
             //var cons1 = db.Tiempos.SingleOrDefault(s => s.IDTiempo == id);
             //txt1.Text=cons1.
 

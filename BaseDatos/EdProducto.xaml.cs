@@ -27,12 +27,14 @@ namespace BaseDatos
         private void DProducto_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             BaseDatos.BD.MiBD db = new BaseDatos.BD.MiBD();
-            int id = (int)DProducto.SelectedValue;
-            var temp = from s in db.Productos
-                       where s.IDCodigo == id
-                       select s;
-            DeProducto.ItemsSource = temp.ToList();
-
+            if (DProducto.SelectedValue != null)
+            {
+                int id = (int)DProducto.SelectedValue;
+                var temp = from s in db.Productos
+                           where s.IDCodigo == id
+                           select s;
+                DeProducto.ItemsSource = temp.ToList();
+            }
         }
 
         private void DeProducto_SelectionChanged(object sender, SelectionChangedEventArgs e)

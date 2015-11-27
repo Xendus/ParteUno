@@ -27,16 +27,19 @@ namespace BaseDatos
         private void DEmpleado_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             BaseDatos.BD.MiBD db = new BaseDatos.BD.MiBD();
+             if (DEmpleado.SelectedValue != null)
+            {
             int id = (int)DEmpleado.SelectedValue;
             var temp = from s in db.Empleados
                        where s.IDEmpleado == id
                        select s;
             DeEmpleado.ItemsSource = temp.ToList();
+                 }
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-             BaseDatos.BD.MiBD db = new BaseDatos.BD.MiBD();
+            BaseDatos.BD.MiBD db = new BaseDatos.BD.MiBD();
             int id = Convert.ToInt32(DEmpleado.SelectedValue);
 
             var temp = db.Empleados.SingleOrDefault(s => s.IDEmpleado == id);
@@ -50,8 +53,8 @@ namespace BaseDatos
                 DEmpleado.DisplayMemberPath = "IDEmpleado";
                 DEmpleado.SelectedValuePath = "IDEmpleado";
                 DEmpleado.SelectedIndex = 0;
+            }
         }
-    }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -72,7 +75,7 @@ namespace BaseDatos
 
         private void DeEmpleado_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-             BaseDatos.BD.MiBD db = new BaseDatos.BD.MiBD();
+            BaseDatos.BD.MiBD db = new BaseDatos.BD.MiBD();
             DEmpleado.ItemsSource = db.Empleados.ToList();
             DEmpleado.DisplayMemberPath = "IDEmpleado";
             DEmpleado.SelectedValuePath = "IDEmpleado";
@@ -87,4 +90,5 @@ namespace BaseDatos
             DEmpleado.SelectedValuePath = "IDEmpleado";
             DEmpleado.SelectedIndex = 0;
         }
+    }
 }

@@ -38,13 +38,11 @@ I:\BaseDatos\BaseDatos\obj\Debug\CapturaVentas.baml
 I:\BaseDatos\BaseDatos\obj\Debug\Cliente.baml
 I:\BaseDatos\BaseDatos\obj\Debug\Empleado.baml
 I:\BaseDatos\BaseDatos\obj\Debug\Producto.baml
-I:\BaseDatos\BaseDatos\obj\Debug\Proveedor.baml
 I:\BaseDatos\BaseDatos\obj\Debug\Tiempo.baml
 I:\BaseDatos\BaseDatos\obj\Debug\CapturaVentas.g.cs
 I:\BaseDatos\BaseDatos\obj\Debug\Cliente.g.cs
 I:\BaseDatos\BaseDatos\obj\Debug\Empleado.g.cs
 I:\BaseDatos\BaseDatos\obj\Debug\Producto.g.cs
-I:\BaseDatos\BaseDatos\obj\Debug\Proveedor.g.cs
 I:\BaseDatos\BaseDatos\obj\Debug\Tiempo.g.cs
 I:\BaseDatos\BaseDatos\obj\Debug\EdTiempo.baml
 I:\BaseDatos\BaseDatos\obj\Debug\EdTiempo.g.cs
@@ -52,3 +50,5 @@ I:\BaseDatos\BaseDatos\obj\Debug\EdProducto.baml
 I:\BaseDatos\BaseDatos\obj\Debug\EdProducto.g.cs
 I:\BaseDatos\BaseDatos\obj\Debug\EdCliente.baml
 I:\BaseDatos\BaseDatos\obj\Debug\EdCliente.g.cs
+I:\BaseDatos\BaseDatos\obj\Debug\EdEmpleado.baml
+I:\BaseDatos\BaseDatos\obj\Debug\EdEmpleado.g.cs
