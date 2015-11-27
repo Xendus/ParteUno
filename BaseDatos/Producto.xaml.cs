@@ -36,5 +36,11 @@ namespace BaseDatos
             db.SaveChanges();
             MessageBox.Show("Datos Fueron Guardados Correctamente");
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            EdProducto Ventana = new EdProducto();
+            Ventana.Show();
+        }
     }
 }

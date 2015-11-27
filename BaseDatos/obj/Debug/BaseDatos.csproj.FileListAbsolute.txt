@@ -48,3 +48,7 @@ I:\BaseDatos\BaseDatos\obj\Debug\Proveedor.g.cs
 I:\BaseDatos\BaseDatos\obj\Debug\Tiempo.g.cs
 I:\BaseDatos\BaseDatos\obj\Debug\EdTiempo.baml
 I:\BaseDatos\BaseDatos\obj\Debug\EdTiempo.g.cs
+I:\BaseDatos\BaseDatos\obj\Debug\EdProducto.baml
+I:\BaseDatos\BaseDatos\obj\Debug\EdProducto.g.cs
+I:\BaseDatos\BaseDatos\obj\Debug\EdCliente.baml
+I:\BaseDatos\BaseDatos\obj\Debug\EdCliente.g.cs

@@ -23,5 +23,11 @@ namespace BaseDatos
         {
             InitializeComponent();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            EdEmpleado Ventana = new EdEmpleado();
+            Ventana.Show();
+        }
     }
 }

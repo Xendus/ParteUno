@@ -63,6 +63,15 @@
     <Compile Include="Cliente.xaml.cs">
       <DependentUpon>Cliente.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EdCliente.xaml.cs">
+      <DependentUpon>EdCliente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EdEmpleado.xaml.cs">
+      <DependentUpon>EdEmpleado.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EdProducto.xaml.cs">
+      <DependentUpon>EdProducto.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EdTiempo.xaml.cs">
       <DependentUpon>EdTiempo.xaml</DependentUpon>
     </Compile>
@@ -72,9 +81,6 @@
     <Compile Include="Producto.xaml.cs">
       <DependentUpon>Producto.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Proveedor.xaml.cs">
-      <DependentUpon>Proveedor.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Tiempo.xaml.cs">
       <DependentUpon>Tiempo.xaml</DependentUpon>
     </Compile>
@@ -83,6 +89,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EdCliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EdEmpleado.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EdProducto.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -116,10 +134,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Producto.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Proveedor.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

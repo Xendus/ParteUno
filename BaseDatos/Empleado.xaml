@@ -4,12 +4,11 @@
         Title="Empleado" Height="300" Width="300">
     <Grid>
         <Label Content="Nombre de Empleado" HorizontalAlignment="Left" Margin="16,43,0,0" VerticalAlignment="Top"/>
-        <Label Content="Contratacion" HorizontalAlignment="Left" Margin="59,100,0,0" VerticalAlignment="Top"/>
+        <Label Content="Posicion" HorizontalAlignment="Left" Margin="59,100,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txt1" HorizontalAlignment="Left" Height="23" Margin="162,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txt2" HorizontalAlignment="Left" Height="23" Margin="162,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="Guardar" HorizontalAlignment="Left" Margin="16,214,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Editar" HorizontalAlignment="Left" Margin="111,214,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Eliminar" HorizontalAlignment="Left" Margin="207,214,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Alteraciones" HorizontalAlignment="Left" Margin="167,214,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
 
     </Grid>
 </Window>
