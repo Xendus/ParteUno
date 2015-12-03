@@ -30,7 +30,7 @@ namespace BaseDatos
             if (DProducto.SelectedValue != null)
             {
                 int id = (int)DProducto.SelectedValue;
-                var temp = from s in db.Productos
+                var temp = from s in db.Productoss
                            where s.IDCodigo == id
                            select s;
                 DeProducto.ItemsSource = temp.ToList();
@@ -51,11 +51,11 @@ namespace BaseDatos
             BaseDatos.BD.MiBD db = new BaseDatos.BD.MiBD();
             int id = Convert.ToInt32(DProducto.SelectedValue);
 
-            var temp = db.Productos.SingleOrDefault(s => s.IDCodigo == id);
+            var temp = db.Productoss.SingleOrDefault(s => s.IDCodigo == id);
 
             if (temp != null)
             {
-                db.Productos.Remove(temp);
+                db.Productoss.Remove(temp);
                 db.SaveChanges();
                 MessageBox.Show("Datos Fueron Eliminados Correctamente");
                 DProducto.ItemsSource = db.Tiempos.ToList();
@@ -70,7 +70,7 @@ namespace BaseDatos
             BaseDatos.BD.MiBD db = new BaseDatos.BD.MiBD();
             int id = (Int32)DProducto.SelectedValue;
 
-            var temp = db.Productos.SingleOrDefault(s => s.IDCodigo == id);
+            var temp = db.Productoss.SingleOrDefault(s => s.IDCodigo == id);
 
 
             if (temp != null)
@@ -86,11 +86,16 @@ namespace BaseDatos
         private void DProducto_Loaded(object sender, RoutedEventArgs e)
         {
             BaseDatos.BD.MiBD db = new BaseDatos.BD.MiBD();
-            DProducto.ItemsSource = db.Productos.ToList();
+            DProducto.ItemsSource = db.Productoss.ToList();
                 DProducto.DisplayMemberPath = "IDCodigo";
                 DProducto.SelectedValuePath = "IDCodigo";
                 DProducto.SelectedIndex = 0;
             
+        }
+
+        private void txt2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

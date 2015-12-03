@@ -55,3 +55,45 @@ I:\BaseDatos\BaseDatos\obj\Debug\Proveedor.g.cs
 I:\BaseDatos\BaseDatos\obj\Debug\BaseDatos.Migrations.semonpartedos.resources
 I:\BaseDatos\BaseDatos\obj\Debug\BaseDatos.Migrations.semonpartetres.resources
 I:\BaseDatos\BaseDatos\obj\Debug\BaseDatos.Migrations.semonpartecuatro.resources
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\bin\Debug\BaseDatos.exe.config
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\BaseDatos.exe
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\BaseDatos.pdb
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\bin\Debug\BaseDatos.exe
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\bin\Debug\BaseDatos.pdb
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\bin\Debug\EntityFramework.dll
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\bin\Debug\EntityFramework.xml
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\CapturaVentas.baml
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\Cliente.baml
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\EdCliente.baml
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\EdEmpleado.baml
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\EdProducto.baml
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\EdProveedor.baml
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\Empleado.baml
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\MainWindow.baml
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\Producto.baml
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\Proveedor.baml
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\CapturaVentas.g.cs
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\Cliente.g.cs
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\EdCliente.g.cs
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\EdEmpleado.g.cs
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\EdProducto.g.cs
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\EdProveedor.g.cs
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\Empleado.g.cs
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\MainWindow.g.cs
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\Producto.g.cs
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\Proveedor.g.cs
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\App.g.cs
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\BaseDatos_MarkupCompile.cache
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\BaseDatos.g.resources
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\BaseDatos.Migrations.semonsemon.resources
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\BaseDatos.Migrations.semonpartedos.resources
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\BaseDatos.Migrations.semonpartetres.resources
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\BaseDatos.Migrations.semonpartecuatro.resources
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\BaseDatos.Properties.Resources.resources
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\BaseDatos.csproj.GenerateResource.Cache
+C:\Users\alumno15\Desktop\Base de datos\ParteUno\BaseDatos\obj\Debug\BaseDatos.csprojResolveAssemblyReference.cache
+E:\Base de datos\ParteUno\BaseDatos\bin\Debug\BaseDatos.exe.config
+E:\Base de datos\ParteUno\BaseDatos\obj\Debug\BaseDatos.exe
+E:\Base de datos\ParteUno\BaseDatos\obj\Debug\BaseDatos.pdb

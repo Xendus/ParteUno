@@ -47,5 +47,11 @@ namespace BaseDatos
             Empleado Ventana = new Empleado();
             Ventana.Show();
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            MainWindow Ventana = new MainWindow();
+            Ventana.Show();
+        }
     }
 }

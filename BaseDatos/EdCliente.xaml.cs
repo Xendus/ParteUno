@@ -86,7 +86,7 @@ namespace BaseDatos
         private void DCliente_Loaded(object sender, RoutedEventArgs e)
         {
             BaseDatos.BD.MiBD db = new BaseDatos.BD.MiBD();
-            DCliente.ItemsSource = db.Productos.ToList();
+            DCliente.ItemsSource = db.Productoss.ToList();
             DCliente.DisplayMemberPath = "IDCliente";
             DCliente.SelectedValuePath = "IDCliente";
             DCliente.SelectedIndex = 0;

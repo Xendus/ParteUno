@@ -11,7 +11,7 @@ namespace BaseDatos.BD
     {
         public DbSet<Ventas> Ventas { get; set; }
         public DbSet<Tiempo> Tiempos { get; set; }
-        public DbSet<Producto> Productos { get; set; }
+        public DbSet<Producto> Productoss { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Empleado> Empleados { get; set; }
         public DbSet<Proveedor> Proveedores { get; set; }

@@ -3,9 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="CapturaVentas" Height="300" Width="300">
     <Grid>
-        <Button Content="Proveedor" HorizontalAlignment="Left" Margin="198,97,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
-        <Button Content="Producto" HorizontalAlignment="Left" Margin="198,58,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
-        <Button Content="Cliente" HorizontalAlignment="Left" Margin="198,24,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button Content="Empleado" HorizontalAlignment="Left" Margin="198,132,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+        <Button Content="Proveedor" HorizontalAlignment="Left" Margin="35,113,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <Button Content="Producto" HorizontalAlignment="Left" Margin="35,71,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="Cliente" HorizontalAlignment="Left" Margin="35,28,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Empleado" HorizontalAlignment="Left" Margin="35,157,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+        <Button Content="Crear Factura" HorizontalAlignment="Left" Margin="35,202,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4"/>
     </Grid>
 </Window>

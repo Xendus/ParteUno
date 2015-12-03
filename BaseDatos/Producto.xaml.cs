@@ -19,6 +19,7 @@ namespace BaseDatos
     /// </summary>
     public partial class Producto : Window
     {
+        public bool IDCodigo;
         public Producto()
         {
             InitializeComponent();
@@ -32,7 +33,7 @@ namespace BaseDatos
             pro.NombreP = txt1.Text;
             pro.NombreCa = txt2.Text;
             pro.Precio = Convert.ToInt32(txt3.Text);
-            db.Productos.Add(pro);
+            db.Productoss.Add(pro);
             db.SaveChanges();
             MessageBox.Show("Datos Fueron Guardados Correctamente");
         }
